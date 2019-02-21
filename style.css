@@ -13,35 +13,35 @@ body {
      text-align: center;
      margin:40px;
      width: relative;
-     border-radius: 30px;
      text-align: center;
 }
 
 .wrapper2 {
     float: left;
-    width: 60%;
 }
 
-.wrapper3{
+.wrapper3 {
     float:right;
-    width: 40%;
 }
 
 #header {
     line-height:100px;
 }
 
-#nav{
+#nav {
     line-height: 100px;
     margin-bottom: 15px;
 }
-#aside{
+#aside {
     line-height: 200px;
-    margin: 15px;
-}
-#section{
-    background: #ebebeb;
+    margin: 35px;
     width: 590px;
+    height: 270px;
+    margin-top: -20px;
+}
+#section {
+    background: #ebebeb;
+    width: 590px;           /* issues*/
     border-style: solid;
     position: absolute;
 }
@@ -53,7 +53,7 @@ body {
     border-color: #777777;
     margin:30px;
 }
-#h123{
+#h123 {
     color: #777777;
     background: #ebebeb;
     width: 495px;
