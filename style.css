@@ -27,10 +27,15 @@ body {
 #header {
     line-height:100px;
 }
-
+#header :hover {
+    color: red;
+}
 #nav {
     line-height: 100px;
     margin-bottom: 15px;
+}
+#nav :hover {
+    color: green;
 }
 #aside {
     line-height: 200px;
@@ -40,11 +45,17 @@ body {
     margin-top: -20px;
     font-size: 16px;
 }
+#aside :hover {
+    color: orangered;
+}
 #section {
     background: #ebebeb;
     width: 590px;           /* issues*/
     border-style: solid;
     position: absolute;
+}
+#section :hover {
+    color: black;
 }
 #article {
     color: #ebebeb;
@@ -54,6 +65,9 @@ body {
     border-color: #777777;
     margin:30px;
 }
+#article :hover {
+    color: aquamarine;
+}
 #h123 {
     color: #777777;
     background: #ebebeb;
@@ -61,6 +75,9 @@ body {
     border-style: solid;
     border-width: 5px;
     height: 40px;
+}
+#h123 :hover {
+    color: firebrick;
 }
 #p {
     color: #777777;
@@ -70,12 +87,17 @@ body {
     border-width: 5px;
     height:40px; 
 }
-
+#p :hover {
+    color: forestgreen;
+}
 #footer {
     color: #777777;
     background: #ebebeb;
     width: 100%;
     border-style: solid;
-    height:90px;
+    height:100px;
     margin-top:310px;
+}
+#footer :hover {
+    color: gold;
 }
